@@ -1,0 +1,14 @@
+Proceso sin_titulo
+	
+	Definir num,contador Como Entero
+	num<-0
+	contador<-0
+	Mientras contador!=30 Hacer
+		num<-num+1
+		Si num%4=0 Entonces
+			contador<-contador+1
+			Escribir "Múltiplo número ",contador, " de 4= ",num
+		Fin Si
+	Fin Mientras
+	
+FinProceso

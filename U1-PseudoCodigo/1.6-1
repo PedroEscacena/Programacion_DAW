@@ -1,0 +1,18 @@
+Proceso sin_titulo
+	
+	Definir contraseña Como Entero
+	Escribir "Escriba la contraseña numerica"
+	Leer contraseña
+	Mientras contraseña!=1234 Hacer
+		Escribir "CONTRASEÑA INCORRECTA"
+		Escribir "Escriba de nuevo la contraseña"
+		Leer contraseña
+	Fin Mientras
+	Escribir "Bienvenido"
+FinProceso
+//Crea un programa que pida al usuario 
+//una contraseña, de forma repetitiva
+//mientras que no introduzca "1234".
+//Cuando finalmente escriba la contraseña 
+//correcta, se le dirá "Bienvenido" y terminará
+//el programa.

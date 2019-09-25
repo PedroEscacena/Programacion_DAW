@@ -1,32 +1,18 @@
-SubProceso resultado <- EsMayor ( numero1,numero2 )
+Proceso EsMayor
 	
-	Definir resultado Como Logico
+	Definir mayor,total,i como entero
+	Dimension mayor[10]
+		Escribir "Escriba el numero 0"
+	leer mayor[0]
+	total<-mayor[0]
+	Para i<-1 Hasta 9 Con Paso 1 Hacer
+		Escribir "Escriba el numero ",i
+		leer mayor[i]
+		Si mayor[i]>total Entonces
+			total<-mayor[i]
+		Fin Si
+		
 	
-	si numero1>numero2 Entonces
-		resultado<-verdadero;
-	SiNo
-		resultado<-Falso;
-	FinSi
-	
-Fin SubProceso
-
-
-
-
-Proceso funcion1
-	
-Definir n1,n2 Como Entero;
-	Escribir "Introduce n1";
-	Leer n1;
-	Escribir "Introduce n2";
-	Leer n2;
-	
-	Si EsMayor(n1,n2) Entonces
-		Escribir "El primero es mayor";
-	SiNo
-		Escribir "El segundo es mayor";
-	FinSi
-	
+	Fin Para
+	Escribir "El mayor numero es ", total
 FinProceso
-
-	

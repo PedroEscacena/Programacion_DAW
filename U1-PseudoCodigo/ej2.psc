@@ -15,7 +15,7 @@ Proceso cambiar_digito
 		Escribir "Introduzca el nuevo dígito: ";
 		Leer nuevo_digito;
 		
-	Para i<-0 Hasta Longitud(num_total) Con Paso 1 Hacer
+		Para i<-0 Hasta Longitud(num_total) Con Paso 1 Hacer
 		
 		Si i==posicion Entonces
 			nuevo_num_total<-nuevo_num_total + nuevo_digito;
@@ -24,10 +24,11 @@ Proceso cambiar_digito
 			
 		Fin Si
 		
-	Fin Para
-	
-	Escribir "El número resultante es ", nuevo_num_total;
+		Fin Para
+			
+		Escribir "El número resultante es ", nuevo_num_total;
 	SiNo
-	escribir "NUMERO INCORRECTO"
+		escribir "NUMERO INCORRECTO"
 	FinSi
+	
 FinProceso

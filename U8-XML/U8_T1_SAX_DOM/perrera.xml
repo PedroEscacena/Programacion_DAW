@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<perrera>
+	<perro id="1">
+		<edad>5</edad>
+		<nombre>Tobi</nombre>
+		<duenyo>Juan Macias</duenyo>
+	</perro>
+
+	<perro id="2">
+		<edad>7</edad>
+		<nombre>Thor</nombre>
+		<duenyo>Jose Martinez</duenyo>
+	</perro>
+
+	<perro id="3">
+		<edad>10</edad>
+		<nombre>Deku</nombre>
+		<duenyo>Alberto Gutierrez</duenyo>
+	</perro>
+
+	<perro id="4">
+		<edad>6</edad>
+		<nombre>Gimli</nombre>
+		<duenyo>Maria Rodriguez</duenyo>
+	</perro>
+
+	<perro id="5">
+		<edad>3</edad>
+		<nombre>Mushu</nombre>
+		<duenyo>Carmen Espejo</duenyo>
+	</perro>
+</perrera>

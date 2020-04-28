@@ -1,15 +1,18 @@
+import java.util.ArrayList;
+
 public class Futbolista {
+
 
     private int dorsal;
     private String nombre;
-    private Demarcaciones listaDemarcaciones;
+    private ArrayList<String> demarcaciones;
     private String equipo;
 
 
-    public Futbolista(int dorsal, String nombre, Demarcaciones listaDemarcaciones, String equipo) {
+    public Futbolista(int dorsal, String nombre, ArrayList<String> demarcaciones, String equipo) {
         this.dorsal = dorsal;
         this.nombre = nombre;
-        this.listaDemarcaciones = listaDemarcaciones;
+        this.demarcaciones = demarcaciones;
         this.equipo = equipo;
     }
 
@@ -29,12 +32,12 @@ public class Futbolista {
         this.nombre = nombre;
     }
 
-    public Demarcaciones getListaDemarcaciones() {
-        return listaDemarcaciones;
+    public ArrayList<String> getDemarcaciones() {
+        return demarcaciones;
     }
 
-    public void setListaDemarcaciones(Demarcaciones listaDemarcaciones) {
-        this.listaDemarcaciones = listaDemarcaciones;
+    public void setDemarcaciones(ArrayList<String> demarcaciones) {
+        this.demarcaciones = demarcaciones;
     }
 
     public String getEquipo() {
